@@ -9,7 +9,6 @@ react scaffolding project
 npx create-react-app my-react --template typescript
 ```
 
-
 ### reference link 
 
 react
