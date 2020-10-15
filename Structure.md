@@ -12,7 +12,7 @@
       - response to props data mapper 포함
       - response to state data mapper 포함  
     - component 에서 data 갱신이나 새로고침이 발생하는 경우 사용 (C,U,D에 따라 처리구조 달라짐)
-    - role 구분 component wrapper (XxComponentWrapper) 
+    - role 구분 component wrapper (XxComponentWrapper)  : HOC
       - component 내부 api 호출은 같은 component 라도 role 에 따라 다른 api 호출함 
 - http
   - common fetch util 
