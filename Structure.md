@@ -1,0 +1,51 @@
+# structure
+
+- pages
+  - role 구분 
+    - page 에서 api 를 통해 data 조회 
+- components
+  - stateless (only props)
+    - component 파일이 props interface 를 포함
+      - response to props data mapper 포함 
+  - state 
+    - component 파일이 props & state interface 를 포함
+      - response to props data mapper 포함
+      - response to state data mapper 포함  
+    - component 에서 data 갱신이나 새로고침이 발생하는 경우 사용 (C,U,D에 따라 처리구조 달라짐)
+    - role 구분 component wrapper (XxComponentWrapper) 
+      - component 내부 api 호출은 같은 component 라도 role 에 따라 다른 api 호출함 
+- http
+  - common fetch util 
+  - api
+    - role & domain 구분 
+  - model
+    - request (type)
+      - role & domain 구분
+      - common : page, file binary converter, file type checker  
+    - response (type)
+      - common : page, response wrapper 
+- router
+- enums
+  - converter : 서버 코드값을 화면 출력값으로 변환
+- i18n : 지원 언어별 구분 
+  - code : 코드 출력값 
+  - format : 숫자, 날짜 등 포맷
+  - word : 단어형
+  - sentence : 동적 텍스트 포함 또는 문장형
+- utils
+  - validator : form validator 
+  - storage : session storage  
+  - calendar
+  - grid 
+  - theme
+    - font 
+    - color 
+  - string util
+  - number util
+  - date util 
+  - calculator 
+- `__tests__`
+  - pages
+  - component
+  - router
+  - utils

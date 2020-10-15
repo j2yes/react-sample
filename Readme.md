@@ -9,6 +9,15 @@ react scaffolding project
 npx create-react-app my-react --template typescript
 ```
 
+### installed library
+
+bootstrap@5.0.0-alpha2 : https://v5.getbootstrap.com/
+
+```aidl
+npm i bootstrap@next
+```
+
+
 ### reference link 
 
 react
