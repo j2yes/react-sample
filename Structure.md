@@ -23,7 +23,7 @@
   - model
     - request (type)
       - role & domain 구분
-      - common : page, file binary converter, file type checker  
+      - common : page   
     - response (type)
       - common : page, response wrapper 
 - router
@@ -35,18 +35,27 @@
   - word : 단어형
   - sentence : 동적 텍스트 포함 또는 문장형
 - utils
-  - validator : form validator 
   - storage : session storage  
-  - date-picker
-  - alert 
+  - form
+    - validator : form validator 
+    - date-picker
+    - masks 
+  - modal : alert, popup 
   - grid 
+  - chart 
   - theme
     - font 
     - color 
   - string util
   - number util
   - date util 
-  - calculator 
+  - calculator
+  - file util
+    - file binary converter, file type checker
+  - toast
+  - timer
+  - uploader  
+  - block-ui
 - `__tests__`
   - pages
   - component
