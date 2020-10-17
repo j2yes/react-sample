@@ -17,6 +17,12 @@ bootstrap@5.0.0-alpha2 : https://v5.getbootstrap.com/
 npm i bootstrap@next
 ```
 
+react router
+
+```aidl
+npm install react-router-dom @types/react-router-dom
+```
+
 
 ### reference link 
 
